@@ -1,12 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #0e0e0e;
+    background: #202020;
     color: #f0f0f0;
     text-align: center;
 }
 header {
-    background: linear-gradient(135deg, #00e0ff, #0066ff);
+    background: linear-gradient(135deg, #005f73, #0a9396);
     padding: 1rem 2rem;
     color: #fff;
     display: flex;
@@ -41,6 +41,7 @@ nav a {
     font-weight: bold;
 }
 nav a:hover {
+    color: #94d2bd;
     text-decoration: underline;
 }
 section {
@@ -62,7 +63,7 @@ section {
     justify-content: center;
 }
 .product {
-    background: #1c1c1c;
+    background: #2b2b2b;
     padding: 1rem;
     border-radius: 8px;
     width: 300px;
@@ -76,5 +77,5 @@ section {
 footer {
     text-align: center;
     padding: 2rem;
-    background: #1c1c1c;
+    background: #2b2b2b;
 }
