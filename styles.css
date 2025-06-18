@@ -1,12 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #202020;
+    background: #0d1117;
     color: #f0f0f0;
     text-align: center;
 }
 header {
-    background: linear-gradient(135deg, #005f73, #0a9396);
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     padding: 1rem 2rem;
     color: #fff;
     display: flex;
@@ -41,7 +41,7 @@ nav a {
     font-weight: bold;
 }
 nav a:hover {
-    color: #94d2bd;
+    color: #64ffda;
     text-decoration: underline;
 }
 section {
@@ -49,12 +49,15 @@ section {
 }
 .hero {
     background: url('images/6c664bc7-7f5a-4e2d-96e9-23c4bf984424.png') center/cover no-repeat;
+    background-color: rgba(15, 32, 39, 0.6);
+    background-blend-mode: overlay;
     color: #fff;
     text-align: center;
     padding: 6rem 2rem;
 }
 .hero h2 {
     font-size: 2.5rem;
+    color: #64ffda;
 }
 .products {
     display: flex;
@@ -63,10 +66,13 @@ section {
     justify-content: center;
 }
 .product {
-    background: #2b2b2b;
+    background: #1e293b;
     padding: 1rem;
     border-radius: 8px;
     width: 300px;
+}
+.product h3 {
+    color: #64ffda;
 }
 .product img {
     width: 100%;
@@ -77,5 +83,5 @@ section {
 footer {
     text-align: center;
     padding: 2rem;
-    background: #2b2b2b;
+    background: #1e293b;
 }
