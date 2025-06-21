@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 header {
-    background: linear-gradient(135deg, #312e81, #9333ea);
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     padding: 1rem 2rem;
     color: #fff;
     display: flex;
@@ -16,10 +16,6 @@ h1 {
     margin: 0;
     font-size: 3rem;
     letter-spacing: 0.1rem;
-    margin-left: 1rem;
-    background: linear-gradient(90deg, #a855f7, #9333ea);
-    -webkit-background-clip: text;
-    color: transparent;
 }
 .logo {
     width: 80px;
@@ -45,15 +41,15 @@ nav a {
     font-weight: bold;
 }
 nav a:hover {
-    color: #a855f7;
+    color: #64ffda;
     text-decoration: underline;
 }
 section {
     padding: 4rem 2rem;
 }
 .hero {
-    background: linear-gradient(135deg, rgba(67,56,202,0.6), rgba(139,92,246,0.6)),
-        url('images/6c664bc7-7f5a-4e2d-96e9-23c4bf984424.png') center/cover no-repeat;
+    background: url('images/6c664bc7-7f5a-4e2d-96e9-23c4bf984424.png') center/cover no-repeat;
+    background-color: rgba(15, 32, 39, 0.6);
     background-blend-mode: overlay;
     color: #fff;
     text-align: center;
@@ -61,7 +57,7 @@ section {
 }
 .hero h2 {
     font-size: 2.5rem;
-    color: #a855f7;
+    color: #64ffda;
 }
 .products {
     display: flex;
@@ -70,15 +66,13 @@ section {
     justify-content: center;
 }
 .product {
-    background: rgba(30, 41, 59, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
+    background: #1e293b;
     padding: 1rem;
     border-radius: 8px;
     width: 300px;
 }
 .product h3 {
-    color: #a855f7;
+    color: #64ffda;
 }
 .product img {
     width: 100%;
