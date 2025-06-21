@@ -85,3 +85,14 @@ footer {
     padding: 2rem;
     background: #1e293b;
 }
+
+#military ul {
+    list-style: disc;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#military li {
+    margin-bottom: 0.5rem;
+}
