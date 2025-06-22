@@ -86,15 +86,27 @@ footer {
     background: #1e293b;
 }
 
-#military ul {
-    list-style: disc;
+#military ul.features {
+    list-style: none;
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem 2rem;
 }
 
-#military li {
+#military ul.features li {
+    position: relative;
+    padding-left: 1.5rem;
     margin-bottom: 0.5rem;
+}
+
+#military ul.features li::before {
+    content: "\2714\FE0F"; /* check mark icon */
+    position: absolute;
+    left: 0;
 }
 
 section p {
